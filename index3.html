@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div id="el1"></div>
+
+    <div id="container1"></div>
+    <button id="mybutton">click here</button>
+    <script>
+      const li_arr = [];
+      const arr = [
+        'Eclaire',
+        "ส้มตำ",
+        'หมูกรอบ',
+        'ข้าวไข่ข้น',
+        'ก๋วยเตี๋ยว',
+        'เนื้อย่าง',
+        'physics',
+        'English',
+        'computer',
+        'science',
+        'singing',
+        'dancing',
+        'piano',
+      ];
+      const mybutton = document.getElementById("mybutton");
+      let state = true;
+      mybutton.addEventListener("click", function () {
+        if (state == true) {
+          const el = document.getElementById("container1");
+          const container1 = document.getElementById("container1");
+          const ul_el = document.createElement("ul");
+          container1.appendChild(ul_el);
+          console.log(state);
+              for (const item of arr) {
+               const li_el = document.createElement("li");
+               li_el.innerText = item;
+              ul_el.appendChild(li_el);
+              li_arr.push(li_el);
+              }
+          state = false;
+        }
+         });
+
+      // const li_arr = [];
+      // const arr = [1, 2, 3, "hello ce nextgen", true, false];
+      //const el=document.getElementById("container1");
+      //el.innerText= "hello ce nextgen"
+
+      //const new_el = document.createElement("div")
+      //new_el.innerText= "hello ce nextgen#2"
+      //el.appendChild(new_el)
+      //   const container1 = document.getElementById("container1");
+      //   const ul_el = document.createElement("ul");
+      //   container1.appendChild(ul_el);
+
+      //   for (const item of arr) {
+      //     const li_el = document.createElement("li");
+      //     li_el.innerText = item;
+      //     ul_el.appendChild(li_el);
+      //     li_arr.push(li_el);
+      //   }
+      //   const mybutton =document.getElementById("mybutton")
+      //   let state = true;
+      //   mybutton.addEventListener("click",function (){
+      //     if (state == true) {
+      //          ul_el. style.background = "pink"
+      //          state=false;
+      //     }
+      //   else{
+      //       ul_el. style.background = "green"
+      //       state=true;
+      //   }
+
+      //   })
+
+      //   ul_el.addEventListener("mouseover", function(){
+      //     ul_el.style.background="red";
+      //   })
+      //   ul_el.addEventListener("mouseout", function(){
+      //     ul_el.style.background="cyan";
+      //   })
+      //   ul_el. style.background = "green"
+
+      // const arr = [1, 2, 3, "hello ce nextgen", true, false]
+      //for (let i =0; i < arr.length, i++;) {
+      // console.log(arr[i]);
+      //}
+
+      //for (;i<5 ; console.log(i++)){}
+      //console.log(i)
+
+      //for (let i = 0; i < 5; i++)
+      //console.log(i); { }
+
+      //let num = 10
+      //function func1(X) {
+      // console.log("more than 5")
+
+      //}
+      //function func2(Y) {
+      //console.log("more than 2")
+      //}
+      //function func3(z) {
+      // console.log("less than 2")
+      // return Z-1
+      //} console.log(num+7)
+      //if (num > 5) {
+      //  func1(num)
+      //}
+      //if (num > 2) {
+      // func2(num)
+      //}
+      //if (num<5 && num<2){
+      //   func3(num)
+      //}
+      //const arr = [1,2,3, "hello nextgen", true, false];
+      //const arr2 = arr.splice(2 , 3,"CE" ,  "nextgen" ,2)
+      //arr.pop() เอาออกจากท้าย
+      //console.log(arr)
+      //arr.push()เพิ่ม
+      //function func1( num ) {
+      //console.log("Hello ce nextgen");
+      //}
+      //const result = func1(15);
+      //console.log(result)
+
+      //let score = 53;
+      //if(score >= 55 && score < 60){
+      //console.log("grade 1.5")
+      //}
+      // else if{
+      //  console.log("grade1")
+      // }
+      // else{
+      //  console.log("grade0")
+      // }
+
+      //if(num<2){console.log("5<2")}
+      //else(num>2){console.log("5>2")}
+    </script>
+  </body>
+</html>

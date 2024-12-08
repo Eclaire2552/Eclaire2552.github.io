@@ -1,0 +1,178 @@
+/*h3{color: rgb(168, 230, 255)
+    ;}
+    p{ color: rgb(62, 168, 230);}
+    #firstname {color: aqua;}
+    #lastname {color: bisque;}
+    h2{ color: rgb(255, 199, 199);}
+    p{color: burlywood;}
+    .class {color: rgb(255, 212, 181);}
+    .intro {color: rgb(255, 194, 235);}
+    .loveyou {background-color: darkgreen;
+    color: cornflowerblue;}
+    *{background-color: deeppink;}
+    .container {font: size 16px; ;}
+    .container h2 {font-size: 3em;}
+    .container h3 {font-size: 2em;}
+    .container h4 {font-size: 0.5em;}
+    .myname{
+        font-size: 2rem;
+        font-weight: 500;
+        font-family: 'Times New Roman', Times, serif;
+    }
+.my-box{ border-style: dotted;
+border-radius: 2px;
+border-width: 2px;
+border-color: aquamarine;
+background-color: blueviolet;
+padding: 26px;
+width: 60px;
+height: 60px;
+margin: 32px;}
+.my-box3{
+    border-style: dashed;
+    border-width: 5px;
+    border-color: cornflowerblue;
+    width: 70px;
+    height: 90px;
+    margin: 40px;
+    padding:20px;
+background-color: darkorchid;}
+กล่อง
+h2{border-style: groove;
+border-color: deeppink;
+background-color: darkseagreen;
+padding: 20px;
+padding-left:600px ;}
+.interest{font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    ;
+}
+    .con{font-size: 2rem;
+        font-weight: 500;
+        font-family: 'Times New Roman', Times, serif;}
+p{font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 4px solid  rgb(249, 89, 255)}*/
+/*.box1 {background-color: blue;
+    margin: 20px;
+display: block;
+width: 50px;
+height: 50px;}
+
+.box2 {background-color: blue;
+    margin: 20px;
+display: inline;
+width: 50px;
+height: 50px;}
+
+    p{display: inline;}
+    .parent-box {background-color: blue;
+    margin: 20px;
+display: inline;
+width: 100px;
+height: 100px;
+position: fixed;
+top: 80px;
+left: 30px;
+}
+.child-box {position: absolute;
+border-style: solid;
+border-width: 2px;
+right: 0;
+border-color:aqua}
+body { height: 1000px;
+margin: 0;}
+.sticky {position: sticky;
+top: 0;
+background-color: brown;} 
+.flex-container{display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 620px;
+border-style: solid;
+border-color: aquamarine;}
+.flex-item{ margin: 10px;
+background-color:darkblue;
+    text-align: left;
+    width: 40px;
+    height: 30px;
+    align-items: center; อันนี้มันจะเรียงแนวตั้ง*/
+.flex-container {
+    display: flex;
+    flex-direction: row;
+
+    border-color: black;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.flex-item {
+    background-color: black;
+    color: aliceblue;
+    margin: 10px;
+}
+
+.flex-item1 {
+    background-color: black;
+    color: aliceblue;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    ;
+    /* position: fixed; */
+}
+
+.flex-item4 {
+    background-color: orange;
+    width: 100vw;
+    height: 50vh;
+}
+
+.flex-item5 {
+    background-color: deeppink;
+    width: 100vw;
+    height: 50vh;
+}
+
+.flex-container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    border-color: black;
+    background-color: black;
+}
+
+.flex-item1 {
+    color: aliceblue;
+    margin: 10px;
+}
+
+.flex-item2 {
+    color: aliceblue;
+    margin: 10px;
+}
+
+.flex-item3 {
+    color: aliceblue;
+    margin: 10px;
+}
+
+/* @media screen and (max-width: 100px)and(min-width: 100px) {}
+
+.flex-container {
+    background-color: black;
+
+}
+
+@media screen and (max-width: 500px)and(min-width: 500px) {}
+
+.flex-item4 {
+    background-color: orange;
+
+} */
