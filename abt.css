@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.myinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.abt-me {
+    color: darkred;
+    text-align: center;
+    margin: 0;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: darkred;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    z-index: 100;
+    color: blanchedalmond;
+    font-size: 1.2rem;
+}
+
+.all {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 30px;
+    background-color: #fef0de;
+    border: 2px solid darkred;
+    margin-top: 20px;
+}
+
+.hobby, .like {
+    background-color: blanchedalmond;
+    border: 2px solid darkred;
+    padding: 15px;
+    color: darkred;
+}
+
+.hob, .li {
+    text-align: center;
+    margin-top: 0;
+}
+
+.hobimg, .likepic {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 15px;
+}
