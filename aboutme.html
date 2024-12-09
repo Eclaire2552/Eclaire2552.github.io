@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="port.css" />
+  </head>
+  <body>
+    <div class="mnme">
+      <div class="bar1">
+        <div class="home">
+            <a href="indexportfolio.html" target="_blank">
+                <img width="300px" height="300px" src="home.png" alt="head" />
+            </a>
+        </div>
+        <div class="Education">
+            <a href="edu.html" target="_blank">
+                <img width="300px" height="300px" src="butedu.png" alt="head" />
+            </a>
+        </div>
+        <div class="cont1">
+            <a href="contact.html" target="_blank">
+                <img width="300px" height="300px" src="butcon.png" alt="head" />
+            </a>
+        </div>
+      </div>
+      <div class="bar2">
+        <div class="auan">
+          <img width="900" height="1000" src="Ecpic.png" alt="auan" />
+        </div>
+      </div>
+      <div class="bar3">
+        <div class="head">
+            <img width="800px" height="50px" src="head.png" alt="head" />
+        </div>
+        <div class="intro">
+            <div id="container1"></div>
+            <button id="mybutton">get to know me</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+       const li_arr = [];
+const arr = [
+  'name:Tanapa',
+  'surname:Jiranaraks',
+  'nickname:Eclaire',
+  'Age:15 years old',
+  'birthdate:10/1/09',
+  'hobby:singing,dancing',
+  'fav subject:science',
+  'fav color: pink',
+  'fav food:somtam',
+  'fav animal:dog',
+  'fav singer:ariana grande',
+  'fav song:bye-ariana',
+  'fav drink:green tea',
+  'Height:168cm',
+  'weight:??'
+];
+const mybutton= document.getElementById("mybutton");
+const container1 = document.getElementById("container1");
+let state = 0;
+
+mybutton.addEventListener("click",function (){
+    container1.innerHTML="";
+    const ul_el =document.createElement("ul");
+    container1.appendChild(ul_el);
+    if (state===0){
+        for (let i = 0; i < 5;i++){
+            const li_el=document.createElement("li");
+      li_el.innerText = arr [i];
+      li_el.style.color = "green";
+      li_el.style.fontSize ="50px"
+       li_el.style.fontFamily="Courier New"
+      ul_el.appendChild(li_el);
+      li_arr.push(li_el);
+      state = 1
+        }
+    } else if (state===1){
+        for(let i = 5; i<10;i++){
+            const li_el = document.createElement("li");
+            li_el.innerText = arr [i];
+            li_el.style.color = "green";
+      li_el.style.fontSize ="50px"
+       li_el.style.fontFamily="Courier New"
+      ul_el.appendChild(li_el);
+      li_arr.push(li_el);
+      state = 2
+        }
+    } 
+    else if (state===2){
+        for(let i = 10; i<15;i++){
+            const li_el = document.createElement("li");
+            li_el.innerText = arr [i];
+            li_el.style.color = "green";
+      li_el.style.fontSize ="50px"
+      li_el.style.fontFamily="Courier New"
+      ul_el.appendChild(li_el);
+      li_arr.push(li_el);
+      state = 0
+        }
+    }
+})
+
+  
+    </script>
+  </body>
+</html>

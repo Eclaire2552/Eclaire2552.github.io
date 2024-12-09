@@ -1,0 +1,244 @@
+
+.Menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  top: 200px;
+}
+
+.mnitem {
+  display: inline;
+  border-style: solid;
+  border-color: hotpink;
+  border-width: 10px;
+  background-color: hotpink;
+  width: 410px;
+  height: 410px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.mnitem2 {
+  display: inline;
+  border-style: solid;
+  border-color: hotpink;
+  border-width: 10px;
+
+  background-color: hotpink;
+  width: 410px;
+  height: 410px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.mnitem3 {
+  display: inline;
+  border-style: solid;
+  border-color: hotpink;
+  border-width: 10px;
+  background-color: hotpink;
+  width: 410px;
+  height: 410px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.Bar {
+  display: flex;
+  border-style: solid;
+  border-color: darkblue;
+  background-color: darkblue;
+  width: 100vw;
+  height: 60px;
+  position: sticky;
+}
+
+.Eclaire {
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  color: aliceblue;
+}
+
+.end {
+  border-style: solid;
+  background-color: darkblue;
+  width: 100vw;
+  height: 60px;
+  position: relative;
+  top: 400px;
+}
+
+.button {
+  display: flex;
+  position: relative;
+  top: 300px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.me {
+  font-size: 80px;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  border-style: solid;
+  background-color: hotpink;
+  border-color: hotpink;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.edu {
+  font-size: 80px;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  border-style: solid;
+  background-color: hotpink;
+  border-color: hotpink;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.cont {
+  font-size: 80px;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  border-style: solid;
+  background-color: hotpink;
+  border-color: hotpink;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.mnme {
+  display: flex;
+  flex-direction: row;
+}
+
+.bar1 {
+  display:flex ;
+  flex-direction: column;
+  border-style: solid;
+  background-color: deeppink;
+  border-color: deeppink;
+  width: 350px;
+  height: 100vh;
+  border-color: deeppink;
+}
+
+.bar2 {
+  border-style: solid;
+  background-color: white;
+  width: 900px;
+  height: 50vh;
+  border-color: white;
+}
+
+.bar3 {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  background-color: deeppink;
+  width: 900px;
+  border-color: deeppink;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  background-color: rgb(250, 244, 194);
+  border-color: rgb(250, 244, 194);
+  width: 800px;
+  height: 700px;
+  border-radius: 15px;
+}
+
+.auan {
+  position: relative;
+  top: 100px;
+}
+#container1 {
+  padding: 50px;
+  margin: 10px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  width: 100vw;
+  height: 50vh;
+  background-color: hotpink;
+  border-color: hotpink;
+
+}
+
+.table {
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+  border-style: solid;
+  border-color: rgb(77, 255, 163);
+  background-color: rgb(77, 255, 163);
+  justify-content: center;
+}
+.book {
+  position: relative;
+
+  bottom: 350px;
+  display: flex;
+}
+
+.list {
+  position: absolute;
+  top: 80%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  padding: 50px;
+}
+.pic{position: absolute;
+top: 100%;
+right: 34%;
+transform: translate(-50%, -50%)}
+
+.edec{position: absolute;
+  top: 45%;
+  right: 43%;
+  transform: translate(-50%, -50%);
+  font-family: "Courier New", Courier, monospace;
+font-size: 45px;}
+
+.backcon{
+  display: flex;
+  flex-direction:row ;
+  justify-content: space-evenly;
+  align-items: center;
+  border-style: solid;
+  background-color: hotpink;
+  width: 90vw;
+  height: 100vh;
+  border-color: hotpink;
+}
+
+.text1{border-style: solid;
+background-color: rgb(189, 224, 255) ;
+border-radius: 15px;
+border-color: rgb(189, 224, 255) ;}
+
+.cont{display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.Eccon{display: flex;
+  flex-direction: row;
+  position: relative;
+top: 50px;
+border-style: solid;
+border-radius: 25px;
+border-color:rgb(189, 224, 255) ;
+background-color:rgb(189, 224, 255) ;}
+
