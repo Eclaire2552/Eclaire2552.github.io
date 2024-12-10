@@ -106,3 +106,10 @@
     padding: 10px;
     border-radius: 15px;
   }
+  .back{font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    border-color: aliceblue;
+    width:110px ;
+    background-color: aliceblue;
+}

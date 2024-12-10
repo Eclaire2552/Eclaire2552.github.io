@@ -269,4 +269,11 @@ right: 65px;}
 .nameEc{position: relative;
 right: 50px;}
 
+.back{font-size: 45px;
+font-family: 'Courier New', Courier, monospace;
+border-style: solid;
+border-color: aliceblue;
+width:110px ;
+background-color: aliceblue;}
+
 
